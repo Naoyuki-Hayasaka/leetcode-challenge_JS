@@ -30,4 +30,8 @@ describe("852. Peak Index in a Mountain Array", () => {
     const arr = [3, 5, 7, 9, 10, 11, 13, 11, 10];
     expect(peakIndexInMountainArray(arr)).to.equal(6);
   });
+  it("should be return 5", () => {
+    const arr = [18, 29, 38, 59, 98, 100, 99, 98, 90];
+    expect(peakIndexInMountainArray(arr)).to.equal(5);
+  });
 });
